@@ -4,7 +4,7 @@
   },
   "mongoDb": {
     "debug": false,
-    "uri": null
+    "uri": "mongodb://jkrana:abcd1234@ds251849.mlab.com:51849/jtc"
   },
   "papertrail": {
     "host": null,
@@ -16,7 +16,21 @@
     "dsn": null,
     "env": "production"
   },
+  "app": {
+    "webAppRoot": "src/app.js"
+  },
+  "accounts": {
+    "jwt": {
+      "key": "testing"
+    }
+  },
+  "www": {
+    "port": 80
+  },
   "mail": {
-    "enabled": true
+    "enabled": false
+  },
+  "sendgrid": {
+    "APIKey": "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"
   }
 }

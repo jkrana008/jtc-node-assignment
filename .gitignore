@@ -17,4 +17,4 @@ Procfile.test
 
 # temp files
 tmp/
-.env
+# .env
