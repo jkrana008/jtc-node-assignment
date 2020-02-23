@@ -1,0 +1,36 @@
+{
+  "logger": {
+    "console": true
+  },
+  "mongoDb": {
+    "debug": true,
+    "uri": "mongodb://jkrana:abcd1234@ds251849.mlab.com:51849/jtc"
+  },
+  "papertrail": {
+    "host": "",
+    "port": "",
+    "program": "",
+    "handleExceptions": false
+  },
+  "sentry": {
+    "dsn": "https://642b678fa28b4748afd30f672828f439@sentry.io/2637371",
+    "env": "development"
+  },
+  "app": {
+    "webAppRoot": "src/app.js"
+  },
+  "accounts": {
+    "jwt": {
+      "key": "testing"
+    }
+  },
+  "www": {
+    "port": 8080
+  },
+  "mail": {
+    "enabled": false
+  },
+  "sendgrid": {
+    "APIKey": "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"
+  }
+}

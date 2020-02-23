@@ -1,0 +1,28 @@
+{
+  "www": {
+    "port": "PORT"
+  },
+  "sentry": {
+    "dsn": "SENTRY_DSN",
+    "env": "SENTRY_ENV"
+  },
+  "mongoDb": {
+    "uri": "MONGODB_URI"
+  },
+  "papertrail": {
+    "host": "PAPERTRAIL_HOST",
+    "port": "PAPERTRAIL_PORT",
+    "program": "PAPERTRAIL_PROGRAM"
+  },
+  "accounts": {
+    "jwt": {
+      "key": "ACCOUNTS_JWT_KEY"
+    }
+  },
+  "app": {
+    "webAppRoot": "WEB_APP_ROOT"
+  },
+  "sendgrid": {
+    "APIKey": "SENDGRID_API_KEY"
+  }
+}
